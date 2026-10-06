@@ -1,0 +1,58 @@
+/* 设置窗口分页（TabPane）暗色主题 */
+.settings-tab-pane {
+    -fx-background-color: transparent;
+    -fx-tab-min-height: 26;
+    -fx-tab-max-height: 26;
+}
+
+.settings-tab-pane > .tab-header-area {
+    -fx-padding: 0;
+}
+
+.settings-tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.settings-tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-color: #273349;
+    -fx-background-radius: 8 8 0 0;
+    -fx-padding: 4 16 4 16;
+}
+
+.settings-tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: #3B82F6;
+}
+
+.settings-tab-pane > .tab-header-area > .headers-region > .tab .tab-label {
+    -fx-text-fill: #C7D2E0;
+    -fx-font-size: 12px;
+}
+
+.settings-tab-pane > .tab-header-area > .headers-region > .tab:selected .tab-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.settings-tab-pane > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.settings-tab-pane > .tab-content-area {
+    -fx-background-color: #111827;
+    -fx-background-radius: 0 0 10 10;
+}
+
+/* 预报分页滚动区：透明背景、无边框 */
+.settings-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-padding: 0;
+}
+
+.settings-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.settings-scroll > .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
